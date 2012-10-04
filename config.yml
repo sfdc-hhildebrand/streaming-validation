@@ -1,0 +1,30 @@
+## Mandatory parameters
+
+# The username
+username: admin@dreamforce.streaming.demo.org1
+
+# The user password
+password: 123456
+
+
+## Optional parameters
+
+# The optional Streaming topic to listen on, no default
+channel: /topic/Account
+
+# The optional timeout for connects, in milliseconds, defaults to 20000
+connectTimeout: 20000
+
+# The optional salesforce login end point, defaults to https://login.salesforce.com    
+loginEndpoint: https://login.salesforce.com
+
+# The optional socket read timeout, in milliseconds, defaults to 120000
+readTimeout: 120000
+
+# The partner uri for SOAP services, defaults to /services/Soap/u/22.0/
+soapPartnerUri: /services/Soap/u/22.0/
+
+# The uri for the streaming endpoint, defaults to /cometd/23.0
+streamingUri: /cometd/23.0
+
+debug: false
